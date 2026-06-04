@@ -1,3 +1,5 @@
+name: MLOps Day2 CI
+
 on:
   push:
     branches:
