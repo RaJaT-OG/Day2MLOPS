@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/HP/OneDrive - The Northcap university/Documents/day2_mlops/mlruns/0/models/m-45e46aaa01fa434c836cad4ddaca5ccf/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.14.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.13.0
+model_id: m-45e46aaa01fa434c836cad4ddaca5ccf
+model_size_bytes: 163271
+model_uuid: m-45e46aaa01fa434c836cad4ddaca5ccf
+prompts: null
+run_id: 2cf2f7b55a5e4639a94e232346a52d9b
+utc_time_created: '2026-06-03 10:16:17.106099'
